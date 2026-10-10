@@ -33,6 +33,11 @@
         font-style: normal;
       }
 
+      .links {
+        display: flex;
+        flex-direction: column;
+      }
+
       @keyframes fadeIn {
         from {
           opacity: 0;
@@ -54,8 +59,10 @@
   <body>
     <main class="content">
       <h1>effica labs</h1>
-      <a href="https://blog.effica.ch/">blog</a>
-      <a href="https://babel.effica.ch/">babel</a>
+      <div class="links">
+        <a href="https://blog.effica.ch/">blog</a>
+        <a href="https://babel.effica.ch/">babel</a>
+      </div>
     </main>
   </body>
 </html>
